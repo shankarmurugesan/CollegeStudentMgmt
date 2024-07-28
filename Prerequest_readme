@@ -1,0 +1,6 @@
+
+Data base and talbe creation
+
+mycursor.execute("CREATE DATABASE college")
+
+mycursor.execute("create table college.students(student_id INT AUTO_INCREMENT PRIMARY KEY,name VARCHAR(100) NOT NULL,age INT,gender VARCHAR(10), major VARCHAR(100),gpa FLOAT)")
