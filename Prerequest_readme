@@ -1,3 +1,33 @@
+Step 1: Install Streamlit
+Streamlit is an open-source Python library used to create web apps for machine learning and data science projects with simple Python scripts.
+
+pip install streamlit
+
+
+Step 2: Install MySQL Connector
+
+To connect your Streamlit app to a MySQL database, you need a MySQL connector. The mysql-connector-python package allows you to connect to MySQL databases from Python.
+
+Command:
+
+pip install mysql-connector-python
+
+
+Explanation of Commands:
+
+1) pip install streamlit:
+
+This command installs the Streamlit library.
+Streamlit is used for creating web applications with interactive elements directly from Python scripts.
+It simplifies the process of creating web interfaces for data analysis and machine learning models.
+
+
+2) pip install mysql-connector-python:
+
+This command installs the MySQL Connector for Python.
+It allows you to connect to and interact with a MySQL database using Python.
+The connector handles the communication between your Python code and the MySQL database, enabling you to execute SQL queries, retrieve data, and perform database operations.
+
 
 Data base and talbe creation
 
